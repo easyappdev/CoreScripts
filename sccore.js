@@ -30,5 +30,7 @@ function funScriptSuccess(a) {
     let idx = funList.map(function(e) { 
         return e.scName; 
     }).indexOf(d.scName);
-    window[funList[idx].scFunHandle](d.data);
+    if(funList[idx].scFunHandle) {
+    	window[funList[idx].scFunHandle](d.data);
+    }
 }
