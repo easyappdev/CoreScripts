@@ -21,8 +21,13 @@ function callScript(_scName, _scData, _scFunHandle){
         else {
             funList.push(handleData);
         }
-        let _data = _scData ? JSON.stringify(_scData) : '';
-        funScript(_scName, _data);
+        try { 
+            let _data = _scData ? JSON.stringify(_scData) : '';
+            funScript(_scName, _data);
+        }
+        catch {
+            console.log('Error en parámetros callScript.');    
+        }
     }   
 }
 
