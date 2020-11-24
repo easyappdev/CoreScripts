@@ -21,7 +21,8 @@ function callScript(_scName, _scData, _scFunHandle){
         else {
             funList.push(handleData);
         }
-        funScript(_scName, JSON.stringify(_scData));
+        let _data = _scData ? JSON.stringify(_scData) : '';
+        funScript(_scName, _data);
     }   
 }
 
