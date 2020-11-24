@@ -29,7 +29,7 @@ function funScriptSuccess(a) {
     var d = JSON.parse(a);
     let idx = funList.map(function(e) { 
         return e.scName; 
-    }).indexOf(d.scName);
+    }).indexOf(d.destiny ? d.destiny : d.scName);
     if(funList[idx].scFunHandle) {
     	window[funList[idx].scFunHandle](d.data);
     }
