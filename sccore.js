@@ -34,3 +34,4 @@ function funScriptSuccess(a) {
     	window[funList[idx].scFunHandle](d.data);
     }
 }
+
