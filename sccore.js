@@ -21,7 +21,13 @@ function callScript(_scName, _scData, _scFunHandle){
         else {
             funList.push(handleData);
         }
-        funScript(_scName, JSON.stringify(_scData));
+        try { 
+            let _data = _scData ? JSON.stringify(_scData) : '';
+            funScript(_scName, _data);
+        }
+        catch {
+            console.log('Error en parámetros callScript.');    
+        }
     }   
 }
 
@@ -29,7 +35,7 @@ function funScriptSuccess(a) {
     var d = JSON.parse(a);
     let idx = funList.map(function(e) { 
         return e.scName; 
-    }).indexOf(d.scName);
+    }).indexOf(d.destiny ? d.destiny : d.scName);
     if(funList[idx].scFunHandle) {
     	window[funList[idx].scFunHandle](d.data);
     }
