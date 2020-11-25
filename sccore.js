@@ -32,12 +32,17 @@ function callScript(_scName, _scData, _scFunHandle){
 }
 
 function funScriptSuccess(a) { 
-    var d = JSON.parse(a);
-    let idx = funList.map(function(e) { 
-        return e.scName; 
-    }).indexOf(d.destiny ? d.destiny : d.scName);
-    if(funList[idx].scFunHandle) {
-    	window[funList[idx].scFunHandle](d.data);
+    try {
+        var d = JSON.parse(a);
+        let idx = funList.map(function(e) { 
+            return e.scName; 
+        }).indexOf(d.destiny ? d.destiny : d.scName);
+        if(funList[idx].scFunHandle) {
+    	    window[funList[idx].scFunHandle](d.data);
+        }
+    }
+    catch {
+        console.log('script result error: ', a);
     }
 }
 
