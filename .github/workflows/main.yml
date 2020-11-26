@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Obfuscate_to_main
+name: obfuscate_to_main
 
 # Controls when the action will run. 
 on:
@@ -32,11 +32,13 @@ jobs:
         run: find . -type f | grep -i "\.git" | xargs rm
 
       - name: Install obfuscator
-        run: npm install --save-dev javascript-obfuscator
+        run: |
+          sudo apt update && sudo apt install yarn
+          yarn add --dev javascript-obfuscator
 
       - name: Obfuscar
         run: |
-          javascript-obfuscator sccore.js --output sccore.js 
+          sudo javascript-obfuscator sccore.js --output sccore.js 
       - name: Checkout code from master branch
         uses: actions/checkout@v2
         with:
