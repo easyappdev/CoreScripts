@@ -1,7 +1,7 @@
 var funList = []
 var enabledSites = [
-    "86ac3665-dc73-4926-92cd-de7463a086f6",
-    "ba26ad9e-a9f9-4307-a82c-dc86b0a8a172"
+    "98295549-F0D3-4168-9BEF-8342E7EA167B", //sitio demo
+    "ba26ad9e-a9f9-4307-a82c-dc86b0a8a172"  //GN  
 ]
 
 function callScript(_scName, _scData, _scFunHandle){
