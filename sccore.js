@@ -1,11 +1,11 @@
 var funList = []
 var enabledSites = [
     "98295549-F0D3-4168-9BEF-8342E7EA167B", //sitio demo
-    "ba26ad9e-a9f9-4307-a82c-dc86b0a8a172"  //GN  
+    "BA26AD9E-A9F9-4307-A82C-DC86B0A8A172"  //GN  
 ]
 
 function callScript(_scName, _scData, _scFunHandle){
-    if(enabledSites.indexOf($('#hidWSId').val()) !== -1){
+    if(enabledSites.indexOf($('#hidWSId').val().toUpperCase()) !== -1){
         var handleData = {
             scName: _scName,
             scFunHandle: _scFunHandle
