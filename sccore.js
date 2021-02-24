@@ -41,8 +41,8 @@ function funScriptSuccess(a) {
     	    window[funList[idx].scFunHandle](d.data);
         }
     }
-    catch {
-        console.log('script result error: ', a);
+    catch (err) {
+        console.log('script result error: ', err.message);
     }
 }
 
