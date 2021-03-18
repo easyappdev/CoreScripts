@@ -46,3 +46,6 @@ function funScriptSuccess(a) {
     }
 }
 
+$( window ).load(function() {
+    $('<a><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/cyc_logo_developer.webp" width="150px" style="margin: 15px 15px 35px 15px;"></a>').insertAfter('#divPoweredByGlobalBluePoint a');
+});
