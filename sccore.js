@@ -46,6 +46,10 @@ function funScriptSuccess(a) {
     }
 }
 
-$( window ).load(function() {
-    $('<a><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/cyc_logo_developer.webp" width="150px" style="margin: 15px 15px 35px 15px;"></a>').insertAfter('#divPoweredByGlobalBluePoint a');
-});
+function RemoveSpecialCaracters(str) {
+    return str.replace(/[^a-zA-Z0-9\s\-]/gi, "").replace(/\s/gi, "-");
+}
+
+ $(window).on('load', function() {
+    $('body').append('<div style="position: relative; bottom: 57px; left: 60%; width: 150px"><a href="https://www.codeandcoffee.ar" target="_blank"><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/cyc_logo_developer.webp"></a></div>');
+ });
