@@ -47,7 +47,7 @@ function funScriptSuccess(a) {
 }
 
 function RemoveSpecialCaracters(str) {
-    return str.replace(/[^a-zA-Z0-9\s\-]/gi, "").replace(/\s/gi, "-");
+    return str.replace(/[^a-zA-Z0-9\s\-]/gi, "").replace(/\s/gi, "-").toLowerCase();
 }
 
  $(window).on('load', function() {
