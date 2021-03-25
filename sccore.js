@@ -47,9 +47,13 @@ function funScriptSuccess(a) {
 }
 
 function RemoveSpecialCaracters(str) {
-    return str.replace(/[^a-zA-Z0-9\s\-]/gi, "").replace(/\s/gi, "-").toLowerCase();
+   return str.replace(/[^a-zA-Z0-9\s\-]/gi, "").replace(/\s/gi, "-").toLowerCase();
 }
 
- $(window).on('load', function() {
-    $('body').append('<div style="position: relative; bottom: 57px; left: 60%; width: 150px"><a href="https://www.codeandcoffee.ar" target="_blank"><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/cyc_logo_developer.webp"></a></div>');
- });
+function isNumeric(n) {
+   return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+$(window).on('load', function() {
+   $('body').append('<div style="position: relative; bottom: 57px; left: 60%; width: 150px"><a href="https://www.codeandcoffee.ar" target="_blank"><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/cyc_logo_developer.webp"></a></div>');
+});
