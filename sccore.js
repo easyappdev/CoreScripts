@@ -55,5 +55,5 @@ function isNumeric(n) {
 }
 
 $(window).on('load', function() {
-   $('body').append('<div style="position: relative; bottom: 57px; left: 60%; width: 150px"><a href="https://www.init.com.ar" target="_blank"><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp"></a></div>');
+   $('body').append('<div style="position: relative; bottom: 30px; left: 56%; width: 75px"><a href="https://www.init.com.ar" target="_blank"><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp"></a></div>');
 });
