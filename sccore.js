@@ -54,6 +54,17 @@ function isNumeric(n) {
    return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
+function soloNumeros(e){
+    tecla=(document.all)?e.keyCode:e.which;
+    if(tecla==8)
+    {
+      return true;
+    }
+    patron=/[0-9]/;
+    tecla_final=String.fromCharCode(tecla);
+    return patron.test(tecla_final);
+}
+
 $(window).on('load', function() {
    $('body').append('<div style="position: relative; bottom: 30px; left: 56%; width: 75px"><a href="https://www.init.com.ar" target="_blank"><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp"></a></div>');
 });
