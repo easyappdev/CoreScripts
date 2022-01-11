@@ -1,7 +1,8 @@
 var funList = []
 var enabledSites = [
     "98295549-F0D3-4168-9BEF-8342E7EA167B", //sitio demo1
-    "5421A861-5BB3-41AA-A21E-5F4F9D8A7A33"  //sitio demo2 
+    "5421A861-5BB3-41AA-A21E-5F4F9D8A7A33",  //sitio demo2 
+    "2970FBBA-1147-49F4-82ED-81DE2BF5B2C1"  //sitio GremioTech
 ]
 
 function callScript(_scName, _scData, _scFunHandle){
