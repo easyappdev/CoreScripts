@@ -44,7 +44,7 @@ function funScriptSuccess(a) {
         }
     }
     catch (err) {
-        console.log('script result error: ', err.message);
+        console.log('script result error:', err.message, " - GBP error:", a);
     }
 }
 
