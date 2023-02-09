@@ -1,3 +1,3 @@
 # CoreScripts
 
-https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@v1.0.25/sccore.js
+https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@v1.0.30/sccore.js
