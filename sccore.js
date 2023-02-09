@@ -70,8 +70,8 @@ function soloNumeros(e){
     return patron.test(tecla_final);
 }
 
-/*
+
 $(window).on('load', function() {
-   $('body').append('<div style="position: relative; bottom: 30px; left: 56%; width: 75px"><a href="https://www.init.com.ar" target="_blank"><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp"></a></div>');
+  $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/1bit_desarrollos.png" style="padding-left: 15px;width: 91px;padding-bottom: 10px;"></a>');
 });
-*/
+
