@@ -72,6 +72,6 @@ function soloNumeros(e){
 
 
 $(window).on('load', function() {
-  $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/1bit_desarrollos.png" style="padding-left: 15px;width: 52px;padding-bottom: 10px;"></a>');
+  $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/1bit_desarrollos.png" style="padding-left: 15px;width: 49px;padding-bottom: 5px;"></a>');
 });
 
