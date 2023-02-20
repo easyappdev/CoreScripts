@@ -1,5 +1,33 @@
-// V1.0.37
+// V1.0.38
 // https://1bit.com.ar
 
-(function(_0x368e4a,_0x1f0273){var _0x2d947b=_0x28b5,_0x40057d=_0x368e4a();while(!![]){try{var _0x5075e4=-parseInt(_0x2d947b(0x102))/0x1*(parseInt(_0x2d947b(0x11e))/0x2)+-parseInt(_0x2d947b(0x109))/0x3*(parseInt(_0x2d947b(0x111))/0x4)+parseInt(_0x2d947b(0x110))/0x5+-parseInt(_0x2d947b(0x112))/0x6+-parseInt(_0x2d947b(0xfd))/0x7*(-parseInt(_0x2d947b(0x10d))/0x8)+-parseInt(_0x2d947b(0x11d))/0x9+parseInt(_0x2d947b(0x119))/0xa;if(_0x5075e4===_0x1f0273)break;else _0x40057d['push'](_0x40057d['shift']());}catch(_0xddf7d5){_0x40057d['push'](_0x40057d['shift']());}}}(_0x3db9,0x338c4));function CotizadorOCA_Tarifar_Envio_Corporativo(_0x5665a2,_0x514c44,_0x55b3e1,_0x2c92e4,_0x46bfa6,_0x31eb46,_0x15fabb,_0x29f839){var _0x2a7b31=_0x28b5,_0x3784df=new Headers();_0x3784df[_0x2a7b31(0x101)](_0x2a7b31(0x104),$(_0x2a7b31(0x107))[_0x2a7b31(0x10b)]()[_0x2a7b31(0x10a)]()),_0x3784df[_0x2a7b31(0x101)](_0x2a7b31(0xfe),_0x2a7b31(0x11a));var _0x3df277={};_0x3df277[_0x2a7b31(0x11b)]=_0x5665a2,_0x3df277[_0x2a7b31(0x106)]=_0x514c44,_0x3df277['CodigoPostalDestino']=_0x55b3e1,_0x3df277[_0x2a7b31(0x100)]=_0x2c92e4,_0x3df277[_0x2a7b31(0x10c)]=_0x46bfa6,_0x3df277[_0x2a7b31(0x103)]=_0x31eb46;var _0xfe211a=JSON['stringify'](_0x3df277),_0xecbf31={};_0xecbf31[_0x2a7b31(0x117)]=_0x2a7b31(0x115),_0xecbf31[_0x2a7b31(0x113)]=_0x3784df,_0xecbf31[_0x2a7b31(0x10f)]=_0xfe211a,_0xecbf31[_0x2a7b31(0x116)]=_0x2a7b31(0x118);var _0x2d7891=_0xecbf31;fetch(_0x2a7b31(0xff),_0x2d7891)[_0x2a7b31(0x114)](_0xa720d9=>_0xa720d9[_0x2a7b31(0x11c)]())[_0x2a7b31(0x114)](_0x5208eb=>window[_0x15fabb](_0x5208eb))[_0x2a7b31(0x105)](_0x55c7f8=>{var _0x1f8853=_0x2a7b31;console[_0x1f8853(0x108)](_0x1f8853(0x10e),_0x55c7f8),window[_0x29f839](_0x55c7f8);});}function _0x28b5(_0x5b90ad,_0x2d12ae){var _0x3db9f2=_0x3db9();return _0x28b5=function(_0x28b577,_0x21f654){_0x28b577=_0x28b577-0xfd;var _0x3a414e=_0x3db9f2[_0x28b577];if(_0x28b5['NYtIcO']===undefined){var _0x5a900b=function(_0x3f0a51){var _0x19c791='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x46c5d3='',_0x584ed8='';for(var _0x104a6f=0x0,_0x486c5e,_0x27cc69,_0x59b3b9=0x0;_0x27cc69=_0x3f0a51['charAt'](_0x59b3b9++);~_0x27cc69&&(_0x486c5e=_0x104a6f%0x4?_0x486c5e*0x40+_0x27cc69:_0x27cc69,_0x104a6f++%0x4)?_0x46c5d3+=String['fromCharCode'](0xff&_0x486c5e>>(-0x2*_0x104a6f&0x6)):0x0){_0x27cc69=_0x19c791['indexOf'](_0x27cc69);}for(var _0x9a0027=0x0,_0x3b5fe2=_0x46c5d3['length'];_0x9a0027<_0x3b5fe2;_0x9a0027++){_0x584ed8+='%'+('00'+_0x46c5d3['charCodeAt'](_0x9a0027)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x584ed8);};_0x28b5['fLAeCu']=_0x5a900b,_0x5b90ad=arguments,_0x28b5['NYtIcO']=!![];}var _0x2280a8=_0x3db9f2[0x0],_0x1ff252=_0x28b577+_0x2280a8,_0x518df0=_0x5b90ad[_0x1ff252];return!_0x518df0?(_0x3a414e=_0x28b5['fLAeCu'](_0x3a414e),_0x5b90ad[_0x1ff252]=_0x3a414e):_0x3a414e=_0x518df0,_0x3a414e;},_0x28b5(_0x5b90ad,_0x2d12ae);}function _0x3db9(){var _0x2d6121=['zM9SBg93','mZCWmtyXmfzMrLfJrq','yxbWBgLJyxrPB24VANnVBG','t3bLCMf0AxzH','Dgv4Da','nJq1nJqYu01Ov2fw','mNzxzhzbrq','mZvgrg5qBeu','q29UDgvUDc1uExbL','Ahr0Chm6lY9HCgL0B29SCY4XyML0C2vYDMLJzxmUy29TlMfYl29Jys9uyxjPzMfYrw52Aw9dB3jWB3jHDgL2BW','ugvZB1rVDgfS','yxbWzw5K','mZG5nJu0sw90u3fQ','q2fUDgLKywrqyxf1zxrLCW','v1njza','y2f0y2G','q29KAwDVug9ZDgfSt3jPz2vU','i2HPzfDtswq','Bg9N','nJqYndvJthvtuhm','Dg9vChbLCKnHC2u','DMfS','vM9SDw1LBLrVDgfS','mJC1otKYwuHbBMrq','q290AxPHzg9Yt0nbievYCM9YoIa','yM9KEq','mJaYnJi5nvb4vefJDG','ohr4rxzcwa','mtm5ntmXofPqBfnPCa','AgvHzgvYCW','DgHLBG','ue9tva','CMvKAxjLy3q','Bwv0Ag9K'];_0x3db9=function(){return _0x2d6121;};return _0x3db9();}
+function CotizadorOCA_Tarifar_Envio_Corporativo(_Operativa, _CodigoPostalOrigen, _CodigoPostalDestino, _PesoTotal, _VolumenTotal, _CantidadPaquetes, _handleFunctionOK, _handleFunctionFail) {
 
+    var myHeaders = new Headers();
+    myHeaders.append("WSId", $('#hidWSId').val().toUpperCase());
+    myHeaders.append("Content-Type", "application/json");
+
+    var raw = JSON.stringify({
+        "Operativa": _Operativa,
+        "CodigoPostalOrigen": _CodigoPostalOrigen,
+        "CodigoPostalDestino": _CodigoPostalDestino,
+        "PesoTotal": _PesoTotal,
+        "VolumenTotal": _VolumenTotal,
+        "CantidadPaquetes": _CantidadPaquetes
+    });
+
+    var requestOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+    };
+
+    fetch("https://apitools.1bitservices.com.ar/oca/TarifarEnvioCorporativo", requestOptions)
+        .then(response => response.text())
+        .then(result => window[_handleFunctionOK](result))
+        .catch(error => {
+            console.log("CotizadorOCA Error: ", error);
+            window[_handleFunctionFail](error);
+        });
+}
