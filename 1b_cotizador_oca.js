@@ -25,8 +25,8 @@ function CotizadorOCA_Tarifar_Envio_Corporativo(_Operativa, _CodigoPostalOrigen,
 
     fetch("https://apitools.1bitservices.com.ar/oca/TarifarEnvioCorporativo", requestOptions)
         .then(response => response.text())
-        .then(result => window[_handleFunctionOK](result))
-        .catch(error => {
+        .then(result => function () { window[_handleFunctionOK](result) })
+        .catch(error => function() {
             console.log("CotizadorOCA Error: ", error);
             window[_handleFunctionFail](error);
         });
