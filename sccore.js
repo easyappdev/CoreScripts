@@ -6,7 +6,8 @@ var enabledSites = [
     "5F6FB4FD-FC16-4A24-9D7D-291E9EE53282", //sitio Adma
     "32505348-7DBE-4206-A527-78F5AF5AE96C", //sitio Buenos Aires Bazar
     "9A9A4202-FAE7-4A26-90E4-43509F1A0CC4", //sitio ByF Deco
-    "12F0F9F9-F23A-4549-B60D-EF7E49516330" //sitio Teknoventas
+    "12F0F9F9-F23A-4549-B60D-EF7E49516330", //sitio Teknoventas
+    "A632009A-7686-4FCB-A0B4-24B18CAF5234" //sitio Maximus
 ]
 
 function callScript(_scName, _scData, _scFunHandle){
@@ -72,6 +73,9 @@ function soloNumeros(e){
 
 
 $(window).on('load', function() {
-  $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp" style="padding-left: 15px;"></a>');
+    if($('#hidWSId').val().toUpperCase() !== "A632009A-7686-4FCB-A0B4-24B18CAF5234") //Distinto sitio de Maximus
+    {
+      $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp" style="padding-left: 15px;"></a>');
+    }
 });
 
