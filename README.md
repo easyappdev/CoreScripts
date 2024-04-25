@@ -6,4 +6,5 @@ pagina para ofuscar
 
 https://www.obfuscator.io/
 
+Seleccionar en String Array Encoding: Base64
 
