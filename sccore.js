@@ -8,6 +8,7 @@ var enabledSites = [
     "9A9A4202-FAE7-4A26-90E4-43509F1A0CC4", //sitio ByF Deco
     "12F0F9F9-F23A-4549-B60D-EF7E49516330", //sitio Teknoventas
     "EA555C4F-D75B-4098-914B-87022D0C6396", //Micrositio Principal Teknoventas
+    "A3DCDD48-B22E-404D-AD6E-01FA5066628D", //Micrositio Teknoventas
     "A632009A-7686-4FCB-A0B4-24B18CAF5234", //sitio Maximus
     "20C51876-0D04-4575-A4F1-5094587B9444" // sitio OFIT SRL
 ]
