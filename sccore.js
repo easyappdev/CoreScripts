@@ -1,3 +1,4 @@
+var enableCoreScriptLog = false;
 var funList = []
 var enabledSites = [
     "98295549-F0D3-4168-9BEF-8342E7EA167B", //sitio demo1
@@ -32,6 +33,9 @@ function callScript(_scName, _scData, _scFunHandle){
         }
         try { 
             let _data = _scData ? JSON.stringify(_scData) : '';
+            if(enableCoreScriptLog) {
+                console.log('callScript - > funScript: ', _scName, _data);
+            }
             funScript(_scName, _data);
         }
         catch {
