@@ -2,7 +2,8 @@ var enableCoreScriptLog = false;
 var funList = []
 var enabledSites = [
     "98295549-F0D3-4168-9BEF-8342E7EA167B", //sitio demo1
-    "5421A861-5BB3-41AA-A21E-5F4F9D8A7A33",  //sitio demo2 
+    "5421A861-5BB3-41AA-A21E-5F4F9D8A7A33", //sitio demo2 
+    "62CA51DF-D7ED-4E20-A5EB-D7917151EEA8", //sitio demo3 
     "2970FBBA-1147-49F4-82ED-81DE2BF5B2C1",  //sitio GremioTech
     "5F6FB4FD-FC16-4A24-9D7D-291E9EE53282", //sitio Adma
     "32505348-7DBE-4206-A527-78F5AF5AE96C", //sitio Buenos Aires Bazar
