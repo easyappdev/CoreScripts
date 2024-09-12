@@ -12,6 +12,7 @@ var enabledSites = [
     "EA555C4F-D75B-4098-914B-87022D0C6396", //Micrositio Principal Teknoventas
     "A3DCDD48-B22E-404D-AD6E-01FA5066628D", //Micrositio Teknoventas
     "A632009A-7686-4FCB-A0B4-24B18CAF5234", //sitio Maximus
+    "1C807F41-D6FA-48F8-B256-EDD2D7B02919", //sitio Compugarden
     "20C51876-0D04-4575-A4F1-5094587B9444" // sitio OFIT SRL
 ]
 
