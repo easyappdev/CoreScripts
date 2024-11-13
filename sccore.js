@@ -13,7 +13,8 @@ var enabledSites = [
     "A3DCDD48-B22E-404D-AD6E-01FA5066628D", //Micrositio Teknoventas
     "A632009A-7686-4FCB-A0B4-24B18CAF5234", //sitio Maximus
     "1C807F41-D6FA-48F8-B256-EDD2D7B02919", //sitio Compugarden
-    "20C51876-0D04-4575-A4F1-5094587B9444" // sitio OFIT SRL
+    "20C51876-0D04-4575-A4F1-5094587B9444", // sitio OFIT SRL
+    "90FFABE9-3302-4054-8D7E-120D98C2D33D" // sitio Noxiestore
 ]
 
 function callScript(_scName, _scData, _scFunHandle){
