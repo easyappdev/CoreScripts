@@ -14,7 +14,8 @@ var enabledSites = [
     "A632009A-7686-4FCB-A0B4-24B18CAF5234", //sitio Maximus
     "1C807F41-D6FA-48F8-B256-EDD2D7B02919", //sitio Compugarden
     "20C51876-0D04-4575-A4F1-5094587B9444", // sitio OFIT SRL
-    "90FFABE9-3302-4054-8D7E-120D98C2D33D" // sitio Noxiestore
+    "90FFABE9-3302-4054-8D7E-120D98C2D33D", // sitio Noxiestore
+    "1D80BFA6-21E1-4B4C-AEC4-D24B930DC0AE" // sitio Guias Locales - https://mancinibeauty.com/
 ]
 
 function callScript(_scName, _scData, _scFunHandle){
