@@ -15,8 +15,10 @@ var enabledSites = [
     "1C807F41-D6FA-48F8-B256-EDD2D7B02919", //sitio Compugarden
     "20C51876-0D04-4575-A4F1-5094587B9444", // sitio OFIT SRL
     "90FFABE9-3302-4054-8D7E-120D98C2D33D", // sitio Noxiestore
-    "1D80BFA6-21E1-4B4C-AEC4-D24B930DC0AE", // sitio Guias Locales - https://mancinibeauty.com/
-    "D1DDEF72-6065-4EDB-9085-7F2515EE8DE9" // sitio ITyT
+    "1D80BFA6-21E1-4B4C-AEC4-D24B930DC0AE", // sitio Mancini Beauty
+    "D1DDEF72-6065-4EDB-9085-7F2515EE8DE9", // sitio ITyT
+    "7BE05E43-9D16-49EF-BFD9-0F3D98CEC35B", // sitio Papelera las Lomas
+    "C25D6CDA-D894-4C11-820A-7BD1415BC67D" // sitio Codigo Parque
 ]
 
 function callScript(_scName, _scData, _scFunHandle){
@@ -90,4 +92,5 @@ $(window).on('load', function() {
       $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp" style="padding-left: 15px;"></a>');
     }
 });
+
 
