@@ -51,6 +51,58 @@ function callScript(_scName, _scData, _scFunHandle){
     }   
 }
 
+function callScript2(_scName, _scData, _scFunHandle){
+    if(enabledSites.indexOf($('#hidWSId').val().toUpperCase()) !== -1){
+	  	
+		//llamar a la funcion para verificar auth y esperar la respuesta con una promesa
+		if (typeof window.AuthCheck !== "function") 
+        {
+          console.warn("Función HandShake inválida, abortando callScript");
+          return;
+        }
+
+	  	let _auth = _scData && _scData.auth ? _scData.auth : '';
+	  
+	  	if(_auth) {
+		  window.AuthCheck(_auth, function (isValid) {
+			if (!isValid) {
+			  console.warn("AUTH inválido, abortando callScript");
+			  return;
+			}});
+		}
+	  	else {
+            console.warn("AUTH inválido, abortando callScript");
+			return;    
+        }
+	  
+        var handleData = {
+            scName: _scName,
+            scFunHandle: _scFunHandle
+        }
+        if(funList.length) {
+            let idx = funList.map(function(e) { 
+                return e.scName; 
+            }).indexOf(_scName);
+            if(idx === -1) {
+                funList.push(handleData);
+            }
+        }
+        else {
+            funList.push(handleData);
+        }
+        try { 
+            let _data = _scData ? JSON.stringify(_scData) : '';
+            if(enableCoreScriptLog) {
+                console.log('callScript - > funScript: ', _scName, _data);
+            }
+            funScript(_scName, _data);
+        }
+        catch {
+            console.log('Error en parámetros callScript.');    
+        }
+    }   
+}
+
 function funScriptSuccess(a) { 
     try {
         var d = JSON.parse(a);
@@ -58,7 +110,7 @@ function funScriptSuccess(a) {
             return e.scName; 
         }).indexOf(d.scName);
         if(funList[idx].scFunHandle) {
-    	    window[funList[idx].scFunHandle](d.data);
+    	    window[funList[idx].scFunHandle](d.data, d.auth);
         }
     }
     catch (err) {
@@ -92,5 +144,6 @@ $(window).on('load', function() {
       $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp" style="padding-left: 15px;"></a>');
     }
 });
+
 
 
