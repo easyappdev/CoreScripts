@@ -53,18 +53,19 @@ function callScript(_scName, _scData, _scFunHandle){
 
 function callScript2(_scName, _scData, _scFunHandle){
     if(enabledSites.indexOf($('#hidWSId').val().toUpperCase()) !== -1){
-	  	
+		
+	  	let _auth = _scData && _scData.auth ? _scData.auth.split("|")[0] : '';
+		let _funNumber = _scData && _scData.auth ? _scData.auth.split("|")[1] : '';
+		
 		//llamar a la funcion para verificar auth y esperar la respuesta con una promesa
-		if (typeof window.AuthCheck !== "function") 
+		if (typeof window["AuthCheck" + _funNumber] !== "function") 
         {
           console.warn("Función HandShake inválida, abortando callScript");
           return;
         }
 
-	  	let _auth = _scData && _scData.auth ? _scData.auth : '';
-	  
 	  	if(_auth) {
-		  window.AuthCheck(_auth, function (isValid) {
+		  window["AuthCheck" + _funNumber](_auth, function (isValid) {
 			if (!isValid) {
 			  console.warn("AUTH inválido, abortando callScript");
 			  return;
@@ -144,6 +145,7 @@ $(window).on('load', function() {
       $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar" target="_blank" ><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp" style="padding-left: 15px;"></a>');
     }
 });
+
 
 
 
