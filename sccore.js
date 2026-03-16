@@ -21,7 +21,8 @@ var enabledSites = [
     "1D80BFA6-21E1-4B4C-AEC4-D24B930DC0AE", // sitio Mancini Beauty
     "D1DDEF72-6065-4EDB-9085-7F2515EE8DE9", // sitio ITyT
     "7BE05E43-9D16-49EF-BFD9-0F3D98CEC35B", // sitio Papelera las Lomas
-    "C25D6CDA-D894-4C11-820A-7BD1415BC67D" // sitio Codigo Parque
+    "C25D6CDA-D894-4C11-820A-7BD1415BC67D", // sitio Codigo Parque
+	"4188C6A1-5C0F-44E2-83C3-BFB7CB418DD5" // sitio VCL
 ]
 
 function callScript(_scName, _scData, _scFunHandle){
