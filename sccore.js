@@ -23,7 +23,8 @@ var enabledSites = [
     "D1DDEF72-6065-4EDB-9085-7F2515EE8DE9", // sitio ITyT
     "7BE05E43-9D16-49EF-BFD9-0F3D98CEC35B", // sitio Papelera las Lomas
     "C25D6CDA-D894-4C11-820A-7BD1415BC67D", // sitio Codigo Parque
-	"4188C6A1-5C0F-44E2-83C3-BFB7CB418DD5" // sitio VCL
+	"4188C6A1-5C0F-44E2-83C3-BFB7CB418DD5", // sitio VCL
+	"83A95000-C750-4128-BCF4-A03CA7FB384C" // sitio DigitalStore
 ]
 
 function callScript(_scName, _scData, _scFunHandle){
