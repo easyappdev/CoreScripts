@@ -148,7 +148,7 @@ function soloNumeros(e){
 $(window).on('load', function() {
     if($('#hidWSId').val().toUpperCase() !== "A632009A-7686-4FCB-A0B4-24B18CAF5234") //Distinto sitio de Maximus
     {
-      $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar" target="_blank" title="1bit.com.ar"><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp" style="padding-left: 15px;" title="Made by 1Bit" alt="Made by 1Bit"></a>');
+      $("a[href$='globalbluepoint.com']").parent().append('<a href="https://1bit.com.ar/global-blue-point/" target="_blank" title="1Bit — Agencia de diseño y desarrollo web, partner oficial de Global Blue Point (GBP). Creamos tu tienda online integrada por API, con sincronización de stock, precios y pedidos en tiempo real."><img src="https://cdn.jsdelivr.net/gh/easyappdev/CoreScripts@latest/developed_by.webp" style="padding-left: 15px;" title="Tienda online en Global Blue Point (GBP) — Diseño y desarrollo web por 1Bit" alt="Tienda online en Global Blue Point (GBP) — Diseño y desarrollo web por 1Bit"></a>');
     }
 });
 
